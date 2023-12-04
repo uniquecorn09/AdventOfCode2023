@@ -1,5 +1,5 @@
 const winston = require("winston");
-const LOGLEVEL = "debug";
+const LOGLEVEL = "info";
 
 const LOG_FORMAT = winston.format.combine(
   // winston.format.align(),
