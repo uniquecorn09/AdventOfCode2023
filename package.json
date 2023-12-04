@@ -1,0 +1,36 @@
+{
+  "name": "adventofcode2019",
+  "version": "0.0.1",
+  "description": "testdrinven node.js approach",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "sh setup/create_project.sh",
+    "test": "jest --watch"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["setup"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniquecorn09/AdventOfCode2019.git"
+  },
+  "keywords": [
+    "aoc",
+    "adventOfCode",
+    "2019"
+  ],
+  "author": "uniquecorn09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniquecorn09/AdventOfCode2019/issues"
+  },
+  "homepage": "https://github.com/uniquecorn09/AdventOfCode2019#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}
