@@ -4,7 +4,7 @@ const {
   readMap,
   readString,
 } = require("./common/fileReader");
-const CURRENTDAY = 1;
+const CURRENTDAY = 2;
 const startPuzzle = require(`./day${CURRENTDAY}/aoc.js`);
 
 const input1 = readString(__dirname + `/day${CURRENTDAY}/data1.txt`);
